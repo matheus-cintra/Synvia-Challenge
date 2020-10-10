@@ -1,0 +1,28 @@
+<link
+  href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c"
+  rel="stylesheet"
+/>
+
+<div
+  style="font-size:16px; text-align: center; color:#626262; padding:30px; line-height:25px; background-color:white; border:1px solid #f0f0f0; border-bottom: 0; margin-bottom: 0;"
+>
+  <div>
+    Olá ${doc.name}, foi solicitado um novo usuário (${doc.email}) para acesso
+    online ao Sistema
+    <strong>Synvia Pokédex - The ultimate health pokédex</strong>.
+  </div>
+  <div>&nbsp;</div>
+  <div>Para concluir seu cadastro, basta clicar em confirmar este email.</div>
+</div>
+
+<div
+  style="padding:30px 1px 60px; background-color:white; border:1px solid #f0f0f0; border-top: 0; text-align:center"
+>
+  <a
+    href="${doc.uriToConfirm}${doc.token}"
+    target="_blank"
+    style="background-color:#43267f ;border:2px solid #43267f ;border-radius:4px;color:#ffffff;font-size:16px;font-weight:normal;letter-spacing:0px;line-height:16px;text-align:center;text-decoration:none;padding:8px;"
+  >
+    CONFIRMAR ESTE EMAIL
+  </a>
+</div>

@@ -1,0 +1,14 @@
+{
+  "name": "Synvia Challenge",
+  "email": "synvia.challenge@gmail.com",
+  "subject": "Email Automático",
+  "textContent": "",
+  "htmlContent": "",
+  "smtp": {
+    "server": "smtp.gmail.com",
+    "port": 465,
+    "secure": true,
+    "user": "synvia.challenge@gmail.com",
+    "password": "6a6*q^$$@*#6$#Gi*oRe"
+  }
+}
